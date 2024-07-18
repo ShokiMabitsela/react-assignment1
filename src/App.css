@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: lighter;
+  
+}
+
+.App {
+  text-align: center;
+  font-size: 40px;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 1512px;
+  height: 3258px;
+}
+.section1{
+background-image: url("./assets/heroPic.jpg"); 
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  height: 988px;
+  width: 100%;
+  
+}
+.App-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  background-color: transparent;
+  position:relative;
+  top: 43px;
+  z-index: 1000;
+  
+}
+
+.logo {
+  font-size: 32px;
+  padding-left: 50px;
+}
+
+.logo-black {
+  color: black;
+}
+
+.logo-white {
+  color: #cbdeec;
+  padding: 0 5px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 73px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  
+}
+
+.subscribe-button {
+  border: 3px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.subscribe-button:active {
+  background-color: #cbdeec;
+  color: black;
+  
+}
+.subscribe-button-holder{
+  padding-right: 50px;
+}
+
+.head-line {
+  width: 100px;
+  border: 2px solid #000;
+  margin: 30PX auto 20px;
+}
+.content-heading h1 {
+  margin: 260px 20px 50px;
+  font-size: 112px;
+}
+.subHeading {
+  font-size: 32px;
+}
+
+.content-section {
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+.content-section h2 {
+  margin: 150px 0 10px;
+  font-size: 32px;
+}
+
+.heading-line {
+  width: 50px;
+  border: 2px solid #000;
+  margin: 40px auto 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  width: 1272px;
+  height: 593px;
+  padding-left: 80px;
+  margin: 150px 0 20px;
+  
+}
+
+.card {
+  background-color: white;
+  width: 282px;
+  height: 376px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  text-align: center;
+  font-size: 16px ;
+  
+}
+.card p{
+  padding: 0 50px;
+}
+
+.card img {
+  width: 282px;
+  height: 188px;
+  display: flex;
+  
+}
+
+.about-section {
+  display: flex;
+  background: white;
+  align-items: center;
+
+}
+
+.about-image {
+  width: 752px;
+  height: 835px;
+  margin-right: 20px;
+  background-size: cover;
+  
+}
+.about-heading{
+  margin:10px;
+  font-size: 32px;
+  
+  
+}
+.about-content {
+  text-align: left;
+  width: 554px;
+  font-size:16px ;
+  margin-left: 84px;
+  
+}
+.underline {
+  width: 50px;
+  margin: 40px 300px;
+  border: 1px solid #000;
+  
+}
+
+.subscribe-section {
+  padding: 60px;
+  align-items: center;
+  justify-content: center;
+  width: 586px;
+  height: 238px;
+  margin: 0 400px;
+  font-size: 32px;
+}
+.subscribe-section h2 {
+  font-size: 16px ;
+}
+
+.subscribe-form input {
+  padding: 20px;
+  margin: 0 ;
+  width: 100%;
+  border: transparent;
+}
+
+.submit {
+  width: 165px ;
+  height: 37px;
+  cursor: pointer;
+  color: #000;
+  background-color: transparent;
+ 
+}
+
+
+.App-footer {
+  color: white;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  background-color: transparent;
+  position:relative;
+  z-index: 1000;
+
+}
+.App-footer img {
+width: 39px;
+height: 39px;
+margin-left:40px;
+align-items: right;
+}
+.footer-navigation ul {
+  display: flex;
+padding-left: 900px;
+
+}
+
+.footer-navigation ul  a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  padding: 10px ;
+   
+}
+.subscribe {
+  width: 165px ;
+  height: 39px;
+  cursor: pointer;
+  color: #000;
+  background-color: transparent;
+  padding: 10px 10px ;
+  margin: 10px;
+  gap: 10px;
+}
