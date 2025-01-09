@@ -2,12 +2,17 @@ import { useState } from 'react'
 // import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css'
 
+import Hero from '../Components/Hero.jsx'
+import LatestArticle from '../Components/LatestArticle.jsx'
+import Subscription from '../Components/Subscription.jsx'
+import AboutUs from '../Components/AboutUs.jsx'
 function App() {
   const [count, setCount] = useState(0)
   
   return (
     <>
-      <div className="App">
+      {/* nav */}
+      {/* <div className="App">
         <section className="section1">
           
         <header className="App-header">
@@ -30,16 +35,21 @@ function App() {
             <div className="subscribe-button-holder">
           <button className="subscribe-button">SUBSCRIBE</button>
        </div>
-          </header>
-        <section className="heading">
+          </header> */}
+     
+      
+          {/* hero */}
+        {/* <section className="heading">
           <section className="content-heading">
             <h1>DRONOTICZ</h1>
             <div className="subHeading">THE ERA OF DRONES</div>
             <hr className="head-line" />
           </section>
           </section>
-          </section>
-        <main>
+        </section> */}
+        <Hero />
+        {/* latest article */}
+        {/* <main>
           <section className="content-section">
             <h2>LATEST ARTICLES</h2>
             <hr className="head-line" />
@@ -66,8 +76,10 @@ function App() {
               </div>
             </div>
           </section>
-        </main>
-        <section className="about-section">
+        </main> */}
+       <LatestArticle />
+        {/* ABOUT */}
+        {/* <section className="about-section">
           
           <img src="./about.jpg" alt="" className="about-image" />
           
@@ -92,16 +104,20 @@ function App() {
             </p>
             </div>
             </div>
-        </section>
-        <section className="subscribe-section">
+        </section> */}
+      <AboutUs/>
+        {/* subscription */}
+        {/* <section className="subscribe-section">
           <h1>SUBSCRIBE</h1>
           <h2>Sign-up to our newsletter</h2>
           <form className="subscribe-form">
             <input type="email" placeholder="Your email" />
               <button className="submit">SUBMIT</button>
           </form>
-        </section>
-        <footer className="App-footer">
+        </section> */}
+      <Subscription/>
+        {/* footer */}
+        {/* <footer className="App-footer">
           <div className="social">
             <ul>
               < a href="https//facebook.com">
@@ -123,8 +139,9 @@ function App() {
           </nav>
                   <button className="subscribe">SUBSCRIBE</button>  
            
-        </footer>
-      </div>
+        </footer> */}
+      <Footer/>
+      {/* </div> */}
     </>
   );
 }
